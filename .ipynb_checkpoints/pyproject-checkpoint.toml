@@ -1,0 +1,15 @@
+[project]
+name = "2026-07-03-tvid"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.1"
+dependencies = [
+    "jupyter>=1.1.1",
+]
+
+# `build-system` 用於讓 pip 支援可編輯安裝（PEP 660）。
+# 保持 `setuptools>=61.0` 以支援 editable 安裝功能。
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
